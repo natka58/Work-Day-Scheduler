@@ -1,0 +1,1 @@
+var currentDayEl = moment().format('dddd, MMMM Do YYYY');
