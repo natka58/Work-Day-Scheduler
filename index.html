@@ -14,11 +14,12 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,9 +30,101 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks go here 9am-5pm hourly -->
+      <!--column-->
+      <!--9am-->
+      <div class="container ">
+        <div class="row">    
+        <div class="col-1" id="9Am"> 9 A.M.
+        </div>
+        <textarea class="col-10" id="time1a">
+        </textarea>
+        <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+        </div>      
+      </div>   
+          <!--10am-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1 " id="10Am">10 A.M.</div>
+            <textarea class="col-10" id="time2a"></textarea>
+              <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+               
+          </div>  
+          </div>  
+          <!--11am-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1 " id="11Am">11 A.M.
+            </div>
+            <textarea class="col-10" id="time3a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+                </div>  
+          </div> 
+          <!--12pm-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1" id="12Pm">12 P.M.
+            </div>
+            <textarea class="col-10" id="time4a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+            </div>      
+          </div>  
+          <!--1pm-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1" id="1Pm">1 P.M.
+            </div>
+            <textarea class="col-10" id="time5a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+            </div>      
+          </div>  
+          <!--2pm-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1" id="2Pm">2 P.M.
+            </div>
+            <textarea class="col-10" id="time6a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+            </div>      
+          </div>  
+          <!--3pm-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1" id="3Pm">3 P.M.
+            </div>
+            <textarea class="col-10" id="time7a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+            </div>      
+          </div>  
+          <!--4pm-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1" id="4Pm">4 P.M.
+            </div>
+            <textarea class="col-10" id="time8a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+            </div>      
+          </div>  
+          <!--5pm-->
+          <div class="container">
+            <div class="row">    
+            <div class="col-1" id="5Pm">5 P.M.
+            </div>
+            <textarea class="col-10" id="time9a">
+            </textarea>
+            <button class="save-btn col-1 bg-info rounded-right border-0" id="button1" ><span class="oi oi-clipboard"></span></button>
+            </div>      
+          
+      </div>
     </div>
-
+<script src="assets/calendar.js
+"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
